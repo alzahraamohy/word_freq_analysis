@@ -91,3 +91,39 @@ ex: python main.py "D:/big text example/big.txt" big.png
 - Database: Visit http://localhost:5050, log in to pgAdmin, and query the word_counts table.
 - Chart: Open the generated PNG file (same path as the txt file).
 
+---
+
+# Sample Run
+
+### 1. Added a file path then the name of the PNG output
+
+![terminal run](assets/1.png)
+
+### 2. Chart result
+
+![chart](assets/2.png)
+
+### 3. Data on postgresql
+
+![db](assets/3.png)
+
+
+---
+# Small file example, diffrent path
+### 1. Added the path
+
+![terminal run](assets/4.png)
+
+### 2. Chart result
+
+![chart](assets/5.png)
+
+### 3. Updated database with the new file ( named testt)
+
+![db](assets/6.png)
+
+
+
+
+
+
