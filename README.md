@@ -124,6 +124,12 @@ ex: python main.py "D:/big text example/big.txt" big.png
 
 
 
+---
+#Conclusion
+This project provides a modular ETL framework for efficiently processing large text files. I hope it serves as a solid foundation for learning and building ETL pipelines.
+
+Thank you for reviewing my work!
+I’m happy to hear any suggestions or improvements you may have.
 
 
 
