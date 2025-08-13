@@ -5,10 +5,6 @@ import os
 from typing import List, Tuple
 
 def save_chart(rows: List[Tuple[str, int]], output_path: str, title: str = "Top Words"):
-    """
-    rows: list of (word, count)
-    output_path: full path to save PNG (we'll ensure folder exists)
-    """
     if not rows:
         print("⚠ No rows to plot.")
         return None

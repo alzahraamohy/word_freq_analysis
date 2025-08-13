@@ -26,7 +26,6 @@ def tokens_from_chunks(chunks: Iterable[str]):
         yield carry
 
 def count_frequencies_from_chunks(chunks: Iterable[str]):
-    """Count tokens from a streaming chunk source (memory-friendly)."""
     counter = Counter()
     for tok in tokens_from_chunks(chunks):
         counter[tok] += 1
